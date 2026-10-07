@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ShandalarImageToolbox.GUI;
 
-namespace ShandalarImageToolbox
+namespace PicDecode
 {
     static class Program
     {
@@ -17,7 +16,7 @@ namespace ShandalarImageToolbox
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new Form1());
         }
     }
 }
